@@ -1,0 +1,93 @@
+body{
+  background-color:rgb(2, 17, 43);
+  font-family:  'Uncial Antiqua', cursive;
+  color:white;
+}
+.magic{
+  animation: flicker 1.5s infinite alternate;
+  color: white;
+  text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #f0f;
+}
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.glorbo{
+  animation: flicker 1.5s infinite alternate;
+  color: white;
+  text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #f0f;
+}
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.4; }
+  100% { opacity: 1; }
+}
+
+.about{
+  display:inline-block;
+  width: 300px;
+  margin: 10px;
+  border:2px dashed white;
+}
+
+.fucts{
+  display:inline;
+  text-align:center;
+  width: 600px;
+  float: right;
+  border: 2px dashed white;
+}
+.center{
+  display:inline-block;
+  width: 210px;
+}
+
+.all{
+  display: flex;
+justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.p {
+      max-width: 600px;
+      font-size: 18px;
+      line-height: 1.6;
+      animation: fadeIn 3s ease-in-out forwards;
+      opacity: 0;
+      text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #7f30ff;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+
+      .header{
+        width: 840px;
+        text-align:center;
+      } 
+
+      header nav{
+        text-align: center;
+        display:inline-block;
+      }
+
+      .container{
+      display:flex;
+      justify-content:center;
+      }
+
+
+header nav{
+  text-align:center;
+}
+
+ 
